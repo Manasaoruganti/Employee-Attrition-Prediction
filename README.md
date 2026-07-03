@@ -42,6 +42,8 @@ analytics benchmark.
 ## Dashboard Preview
 
 ![Employee Attrition Risk Dashboard](outputs/dashboard_preview.png)
+<img width="2349" height="1274" alt="dashboard_preview" src="https://github.com/user-attachments/assets/5a93377e-2639-445d-b06f-a261bc1241da" />
+
 
 > **Note:** This preview is generated directly from the pipeline's output
 > (`outputs/attrition_risk_scores.csv`) so the repo shows a visual result
