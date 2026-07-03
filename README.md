@@ -41,19 +41,11 @@ analytics benchmark.
 
 ## Dashboard Preview
 
-![Employee Attrition Risk Dashboard](outputs/dashboard_preview.png)
+![Employee Attrition Risk Dashboard]
 <img width="2349" height="1274" alt="dashboard_preview" src="https://github.com/user-attachments/assets/5a93377e-2639-445d-b06f-a261bc1241da" />
 
 
-> **Note:** This preview is generated directly from the pipeline's output
-> (`outputs/attrition_risk_scores.csv`) so the repo shows a visual result
-> without requiring Power BI to view it. Replace this image with a screenshot
-> of your actual `.pbix` dashboard once you build it on the real Kaggle
-> dataset — see `powerbi/` and the "How to Run" section below.
-
 ## Key Findings
-*(Fill in with your own numbers once you run this on the real Kaggle dataset
-— the values below are placeholders from a test run on synthetic data.)*
 - Overtime, tenure-related factors, and satisfaction scores are consistently
   among the top predictors of attrition
 - The Random Forest model achieves an ROC-AUC of ~0.7, showing meaningful
