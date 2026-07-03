@@ -59,21 +59,6 @@ the top 2-3 risk factors identified by the model (e.g., frequent overtime
 combined with a long gap since last promotion), rather than treating
 attrition as unpredictable.
 
-## Repository Structure
-```
-employee-attrition-prediction/
-├── data/                          # place the Kaggle CSV here (not committed)
-├── notebooks/
-│   └── attrition_analysis.py      # full pipeline (jupytext "percent" format)
-├── outputs/                       # generated charts + risk-scored CSV
-├── powerbi/                       # Power BI dashboard file
-├── scripts/
-│   ├── make_synthetic_data.py     # optional: generate test data if offline
-│   └── make_dashboard_preview.py  # generates outputs/dashboard_preview.png
-├── requirements.txt
-└── README.md
-```
-
 ## How to Run
 ```bash
 pip install -r requirements.txt
